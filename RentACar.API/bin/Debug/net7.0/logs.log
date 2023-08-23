@@ -1,0 +1,16 @@
+2023-08-21 15:03:43,476 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5133
+2023-08-21 15:03:43,483 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-08-21 15:03:43,483 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-08-21 15:03:43,484 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API
+2023-08-21 17:09:38,322 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5133
+2023-08-21 17:09:38,333 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-08-21 17:09:38,334 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-08-21 17:09:38,334 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API
+2023-08-21 17:09:51,979 [15] INFO  RentACar.API.Controllers.demoController - bilgi deneme
+2023-08-21 17:09:51,983 [15] WARN  RentACar.API.Controllers.demoController - uyarı deneme
+2023-08-21 17:09:52,823 [15] INFO  RentACar.API.Controllers.demoController - bilgi deneme
+2023-08-21 17:09:52,824 [15] WARN  RentACar.API.Controllers.demoController - uyarı deneme
+2023-08-21 17:09:52,944 [12] INFO  RentACar.API.Controllers.demoController - bilgi deneme
+2023-08-21 17:09:52,945 [12] WARN  RentACar.API.Controllers.demoController - uyarı deneme
+2023-08-21 17:09:53,074 [12] INFO  RentACar.API.Controllers.demoController - bilgi deneme
+2023-08-21 17:09:53,075 [12] WARN  RentACar.API.Controllers.demoController - uyarı deneme

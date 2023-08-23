@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/CustomerController.cs" relfile="RentACar.API/Controllers/CustomerController.cs" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Contract/LogActionAttribute.cs">
+    <Files>
+      <File FileName="RentACar.API/Program.cs" Line="67" Column="55" IsPinned="True" />
+      <File FileName="RentACar.API/log4net.config" />
+      <File FileName="RentACar.API/Contract/LogActionAttribute.cs" Line="21" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RentACar" expanded="True">
+            <Node name="RentACar.API" expanded="True">
+              <Node name="Contract" expanded="True">
+                <Node name="LogActionAttribute.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="RentACar.Entities" expanded="True">
+              <Node name="DTOs" expanded="True" />
+              <Node name="Entities" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

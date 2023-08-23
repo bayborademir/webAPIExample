@@ -1,0 +1,24 @@
+INFO 1 Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5133
+INFO 1 Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+INFO 1 Microsoft.Hosting.Lifetime - Hosting environment: Development
+INFO 1 Microsoft.Hosting.Lifetime - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API
+INFO 12 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 12 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 9 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 9 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 9 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 9 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 12 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 12 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 12 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 12 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 12 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 12 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 11 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 11 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 11 RentACar.API.Controllers.demoController - bilgi deneme
+WARN 11 RentACar.API.Controllers.demoController - uyarı deneme
+INFO 1 Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5133
+INFO 1 Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+INFO 1 Microsoft.Hosting.Lifetime - Hosting environment: Development
+INFO 1 Microsoft.Hosting.Lifetime - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API

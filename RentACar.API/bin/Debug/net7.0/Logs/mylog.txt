@@ -1,0 +1,4 @@
+2023-08-17 16:38:00,100 INFO bilgi deneme
+2023-08-17 16:38:00,105 WARN uyarı deneme
+2023-08-17 16:38:46,702 INFO bilgi deneme
+2023-08-17 16:38:46,706 WARN uyarı deneme

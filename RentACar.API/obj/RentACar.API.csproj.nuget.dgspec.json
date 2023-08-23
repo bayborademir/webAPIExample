@@ -1,0 +1,413 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bayborademir/Desktop/RentACar/RentACar.API/RentACar.API.csproj": {}
+  },
+  "projects": {
+    "/Users/bayborademir/Desktop/RentACar/RentACar.API/RentACar.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.API/RentACar.API.csproj",
+        "projectName": "RentACar.API",
+        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.API/RentACar.API.csproj",
+        "packagesPath": "/Users/bayborademir/.nuget/packages/",
+        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/RentACar.Bussines.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/RentACar.Bussines.csproj"
+              },
+              "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj"
+              },
+              "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Log4net.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpOverrides": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "TestBase": {
+              "target": "Package",
+              "version": "[4.1.4.4, )"
+            },
+            "TestBase-Mvc": {
+              "target": "Package",
+              "version": "[4.1.4.3, )"
+            },
+            "Volo.Abp": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "Volo.Abp.Users.Abstractions": {
+              "target": "Package",
+              "version": "[7.3.2, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/RentACar.Bussines.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/RentACar.Bussines.csproj",
+        "projectName": "RentACar.Bussines",
+        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/RentACar.Bussines.csproj",
+        "packagesPath": "/Users/bayborademir/.nuget/packages/",
+        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Bussines/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj"
+              },
+              "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
+        "projectName": "RentACar.DataAcces",
+        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
+        "packagesPath": "/Users/bayborademir/.nuget/packages/",
+        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj",
+        "projectName": "RentACar.Entities",
+        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj",
+        "packagesPath": "/Users/bayborademir/.nuget/packages/",
+        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
