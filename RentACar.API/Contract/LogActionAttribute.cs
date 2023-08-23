@@ -18,7 +18,6 @@ namespace RentACar.API.Contract
             _current = current;
         }
 
-        //gerizwekalı
 
         public Log4NetActionFilterAttribute()
         {
@@ -35,6 +34,7 @@ namespace RentACar.API.Contract
 
             _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {currentUser}");
             _logger.Info($"User '{currentUser}' is performing an action.");
+            //dallama
 
             base.OnActionExecuting(context);
         }
