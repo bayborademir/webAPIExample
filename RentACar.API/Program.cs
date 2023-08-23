@@ -19,7 +19,6 @@ using RentACar.DataAcces.Concrete;
 using RentACar.DataAcces.Models;
 using System.Reflection;
 using System.Text;
-using System.Xml;
 
 var builder = WebApplication.CreateBuilder(args);
 
