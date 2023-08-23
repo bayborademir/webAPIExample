@@ -36,8 +36,9 @@ namespace RentACar.API.Contract
             _logger.Info($"User '{currentUser}' is performing an action.");
             //dallama
 
+            //malsın 
             base.OnActionExecuting(context);
-        }
+        }   
 
         public override void OnActionExecuted(ActionExecutedContext context)
         {
