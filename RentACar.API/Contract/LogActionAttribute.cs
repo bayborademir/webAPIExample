@@ -35,7 +35,7 @@ namespace RentACar.API.Contract
             _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {currentUser}");
             _logger.Info($"User '{currentUser}' is performing an action.");
             //dallama
-
+            //amk
             //malsın 
             base.OnActionExecuting(context);
         }   
