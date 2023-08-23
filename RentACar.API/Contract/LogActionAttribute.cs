@@ -26,10 +26,13 @@ namespace RentACar.API.Contract
 
         public override void OnActionExecuting(ActionExecutingContext context)
         {
+            log4net.GlobalContext.Properties["userName"] = _current.UserName;
             string currentUser = _current.UserName;
+
+
             if (currentUser == null)
             {
-                currentUser = "isimsiz";
+                _logger.Error("Error occured");
             }
 
             _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {currentUser}");

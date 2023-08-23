@@ -28,8 +28,6 @@ namespace RentACar.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(SignUpDTO dto)
         {
-            
-            
             if (ModelState.IsValid)
             {
                 var user = _mapper.Map<AspNetUser>(dto);

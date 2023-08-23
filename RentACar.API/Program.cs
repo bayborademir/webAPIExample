@@ -17,6 +17,7 @@ using RentACar.DataAcces;
 using RentACar.DataAcces.Abstract;
 using RentACar.DataAcces.Concrete;
 using RentACar.DataAcces.Models;
+using System.Data;
 using System.Reflection;
 using System.Text;
 
@@ -68,6 +69,8 @@ builder.Services.AddAutoMapper(typeof(MapperProfile));
 builder.Services.AddDbContext<RentAcarDbContext>();
 
 builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
+
+
 
 builder.Services.AddIdentity<AspNetUser, AspNetRole>(opt =>
 {
