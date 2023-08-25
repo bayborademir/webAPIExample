@@ -1,29 +1,37 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http">
-  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/CustomerController.cs" relfile="RentACar.API/Controllers/CustomerController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/SignUpController.cs" relfile="RentACar.API/Controllers/SignUpController.cs" line="45" column="1" />
+      <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/SignUpController.cs" relfile="RentACar.API/Controllers/SignUpController.cs" line="44" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.Entities/Entities/AspNetUser.cs">
     <Files>
-      <File FileName="RentACar.API/Program.cs" Line="9" Column="36" IsPinned="True" />
-      <File FileName="RentACar.API/log4net.config" Line="1" Column="1" />
-      <File FileName="RentACar.API/Contract/LogActionAttribute.cs" Line="36" Column="76" />
+      <File FileName="RentACar.API/Program.cs" Line="68" Column="7" IsPinned="True" />
+      <File FileName="RentACar.API/Controllers/SignUpController.cs" Line="51" Column="22" />
+      <File FileName="RentACar.Entities/Entities/AspNetUser.cs" Line="11" Column="28" />
+      <File FileName="RentACar.DataAcces/RentAcarDbContext.cs" Line="23" Column="63" />
+      <File FileName="RentACar.API/Models/UserCreateModel.cs" Line="8" Column="8" />
+      <File FileName="RentACar.Entities/Entities/AspNetUserClaim.cs" Line="1" Column="1" />
+      <File FileName="RentACar.Entities/Entities/Employee.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RentACar">
+          <Node name="RentACar" expanded="True">
             <Node name="RentACar.API">
-              <Node name="Contract" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
-            <Node name="RentACar.Entities" expanded="True">
+            <Node name="RentACar.Entities">
               <Node name="DTOs" expanded="True" />
-              <Node name="Entities" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="AspNetUser.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

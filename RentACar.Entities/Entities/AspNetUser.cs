@@ -4,11 +4,12 @@ using Microsoft.AspNetCore.Identity;
 
 namespace RentACar.DataAcces.Models;
 
-public partial class AspNetUser :IdentityUser<int>
+public partial class AspNetUser :IdentityUser
 {
     public int Id { get; set; } 
 
-    public string UserName { get; set; }
+    public string? UserName { get; set; }
+
 
     public string? NormalizedUserName { get; set; }
 

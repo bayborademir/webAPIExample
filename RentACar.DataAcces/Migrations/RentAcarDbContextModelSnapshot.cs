@@ -151,7 +151,7 @@ namespace RentACar.DataAcces.Migrations
                         .IsUnique()
                         .HasFilter("([NormalizedUserName] IS NOT NULL)");
 
-                    b.ToTable("AspNetUser");
+                    b.ToTable("AspNetUsers");
                 });
 
             modelBuilder.Entity("RentACar.DataAcces.Models.AspNetUserClaim", b =>

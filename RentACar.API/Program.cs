@@ -23,30 +23,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Logging.AddLog4Net();
-XmlConfigurator.Configure(new FileInfo("log4net.config"));
-
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-
-//builder.Host.ConfigureLogging(x =>
-//{
-//    x.AddLog4Net(log4NetConfigFile: "log4net.config");
-//    x.ClearProviders();
-//    x.AddLog4Net();
-//});
-
-//Log.Logger = new LoggerConfiguration()
-//    .MinimumLevel.Information().
-//    WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Hour)
-//    .CreateLogger();
-
-//builder.Host.UseSerilog();
-
-builder.Services.AddHttpContextAccessor();
-
-var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
-XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
-
+#region
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -65,12 +42,20 @@ builder.Services.AddScoped<IRentalService, RentalManager>();
 
 builder.Services.AddMemoryCache();
 builder.Services.AddAutoMapper(typeof(MapperProfile));
+#endregion
+
+builder.Logging.AddLog4Net();
+XmlConfigurator.Configure(new FileInfo("log4net.config"));
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddHttpContextAccessor();
+
+var logRepository = LogManager.GetRepository(Assembly.GetEntryAssembly());
+XmlConfigurator.Configure(logRepository, new FileInfo("log4net.config"));
 
 builder.Services.AddDbContext<RentAcarDbContext>();
 
 builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
-
-
 
 builder.Services.AddIdentity<AspNetUser, AspNetRole>(opt =>
 {
@@ -80,10 +65,11 @@ builder.Services.AddIdentity<AspNetUser, AspNetRole>(opt =>
     opt.Password.RequireLowercase = false;
     opt.Password.RequireNonAlphanumeric = false;
     opt.User.RequireUniqueEmail = false;
-    opt.User.AllowedUserNameCharacters =
-      "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    //opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+'";
+    //"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ";    
  
-}).AddEntityFrameworkStores<RentAcarDbContext>();
+}).AddEntityFrameworkStores<RentAcarDbContext>()
+.AddDefaultTokenProviders();
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x =>
@@ -100,7 +86,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     };
 });
 
-//-------------------------------------------------------------------
+//--------------------------------------------------------------------------------------
 
 var app = builder.Build();
 

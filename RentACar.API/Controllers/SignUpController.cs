@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using RentACar.API.Models;
 using RentACar.DataAcces.Models;
 using RentACar.Entities.DTOs;
-
 
 namespace RentACar.API.Controllers
 {
@@ -26,11 +26,19 @@ namespace RentACar.API.Controllers
         
        
         [HttpPost]
-        public async Task<IActionResult> Register(SignUpDTO dto)
+        public async Task<IActionResult> Register(UserCreateModel dto)
         {
             if (ModelState.IsValid)
             {
-                var user = _mapper.Map<AspNetUser>(dto);
+                AspNetUser user = new()
+                {
+                    //Email = dto.Email,
+                    //PhoneNumber = dto.PhoneNmber,
+                    UserName = dto.UserName
+
+                };
+
+                //var user =_mapper.Map<AspNetUser>(dto);
                 var result = await _userManager.AddPasswordAsync(user, dto.Password);
 
                 if (result.Succeeded)

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace RentACar.DataAcces.Models;
 
-public partial class AspNetRole :IdentityRole<int>
+public partial class AspNetRole :IdentityRole
 {
     public int Id { get; set; } 
 

@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using RentACar.DataAcces.Models;
 using RentACar.Entities.DTOs;
 
-
 namespace RentACar.API.Controllers
 {
     [Route("api/[controller]")]

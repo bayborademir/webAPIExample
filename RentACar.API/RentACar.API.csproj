@@ -47,9 +47,11 @@
   <ItemGroup>
     <None Remove="Logs\" />
     <None Remove="Contract\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Logs\" />
     <Folder Include="Contract\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
