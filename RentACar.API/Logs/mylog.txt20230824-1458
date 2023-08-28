@@ -1,8 +1,0 @@
-INFO  2023-08-24 14:58:14,129 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Now listening on: http://localhost:5133
-INFO  2023-08-24 14:58:14,136 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
-INFO  2023-08-24 14:58:14,136 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Hosting environment: Development
-INFO  2023-08-24 14:58:14,137 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API
-INFO  2023-08-24 14:58:46,544 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Now listening on: http://localhost:5133
-INFO  2023-08-24 14:58:46,551 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
-INFO  2023-08-24 14:58:46,551 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Hosting environment: Development
-INFO  2023-08-24 14:58:46,551 [(null)] [(null)]  [1] Microsoft.Hosting.Lifetime               - Content root path: /Users/bayborademir/Desktop/RentACar/RentACar.API

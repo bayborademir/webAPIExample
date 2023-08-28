@@ -27,21 +27,9 @@ namespace RentACar.API.Contract
 
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            string? userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
-
-            //log4net.GlobalContext.Properties["userName"] = _current.UserName;
-            log4net.GlobalContext.Properties["userName"] = userName;
-
-            //string currentUser = _current.UserName;
-
-
-            if (userName == null)
-            {
-                _logger.Error("Error occured");
-            }
-
-            _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {userName}");
-            _logger.Info($"User '{userName}' is performing an action.");
+            
+            _logger.Info($"Executing {context.ActionDescriptor.DisplayName}");
+            _logger.Info($"User is performing an action.");
             base.OnActionExecuting(context);
         }   
 
