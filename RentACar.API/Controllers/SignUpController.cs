@@ -24,21 +24,12 @@ namespace RentACar.API.Controllers
             _mapper = mapper;
         }
         
-       
         [HttpPost]
-        public async Task<IActionResult> Register(UserCreateModel dto)
+        public async Task<IActionResult> Register(SignUpDTO dto)
         {
             if (ModelState.IsValid)
             {
-                AspNetUser user = new()
-                {
-                    //Email = dto.Email,
-                    //PhoneNumber = dto.PhoneNmber,
-                    UserName = dto.UserName
-
-                };
-
-                //var user =_mapper.Map<AspNetUser>(dto);
+                var user =_mapper.Map<AspNetUser>(dto);
                 var result = await _userManager.AddPasswordAsync(user, dto.Password);
 
                 if (result.Succeeded)

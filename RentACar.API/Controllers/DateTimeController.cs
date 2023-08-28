@@ -20,7 +20,6 @@ namespace RentACar.API.Controllers
             _memoryCache = memoryCache;
         }
 
-
         [HttpGet]
         [Log4NetActionFilter]
         public DateTime Get()
