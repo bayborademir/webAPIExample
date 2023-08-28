@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/CustomerController.cs" relfile="RentACar.API/Controllers/CustomerController.cs" line="28" column="1" />
@@ -9,34 +10,28 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.Entities/Entities/AspNetUser.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Contract/LogActionAttribute.cs">
     <Files>
-      <File FileName="RentACar.API/Program.cs" Line="68" Column="7" IsPinned="True" />
-      <File FileName="RentACar.API/Controllers/SignUpController.cs" Line="51" Column="22" />
-      <File FileName="RentACar.Entities/Entities/AspNetUser.cs" Line="11" Column="28" />
-      <File FileName="RentACar.DataAcces/RentAcarDbContext.cs" Line="23" Column="63" />
-      <File FileName="RentACar.API/Models/UserCreateModel.cs" Line="8" Column="8" />
-      <File FileName="RentACar.Entities/Entities/AspNetUserClaim.cs" Line="1" Column="1" />
-      <File FileName="RentACar.Entities/Entities/Employee.cs" Line="20" Column="1" />
+      <File FileName="RentACar.API/Program.cs" Line="17" Column="35" IsPinned="True" />
+      <File FileName="RentACar.API/Contract/LogActionAttribute.cs" Line="30" Column="19" />
+      <File FileName="RentACar.API/Controllers/CarController.cs" Line="27" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RentACar" expanded="True">
             <Node name="RentACar.API">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="RentACar.Entities">
-              <Node name="DTOs" expanded="True" />
-              <Node name="Entities" expanded="True">
-                <Node name="AspNetUser.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Contract" expanded="True">
+                <Node name="LogActionAttribute.cs" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

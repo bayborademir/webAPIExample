@@ -24,9 +24,6 @@ using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
 #region
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICarRepo, CarRepo>();
 builder.Services.AddScoped<ICarService, CarManager>();
@@ -40,9 +37,14 @@ builder.Services.AddScoped<ICustomerService, CustomerManager>();
 builder.Services.AddScoped<IRentalRepo, RentalRepo>();
 builder.Services.AddScoped<IRentalService, RentalManager>();
 
+#endregion
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddMemoryCache();
 builder.Services.AddAutoMapper(typeof(MapperProfile));
-#endregion
 
 builder.Logging.AddLog4Net();
 XmlConfigurator.Configure(new FileInfo("log4net.config"));
@@ -65,11 +67,8 @@ builder.Services.AddIdentity<AspNetUser, AspNetRole>(opt =>
     opt.Password.RequireLowercase = false;
     opt.Password.RequireNonAlphanumeric = false;
     opt.User.RequireUniqueEmail = false;
-    //opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+'";
-    //"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ";    
- 
-}).AddEntityFrameworkStores<RentAcarDbContext>()
-.AddDefaultTokenProviders();
+
+}).AddEntityFrameworkStores<RentAcarDbContext>();
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x =>
@@ -103,6 +102,9 @@ app.Use(async (httpContext, next) =>
 
     await next();
 });
+
+
+
 
 app.UseAuthentication();
 app.UseAuthorization();

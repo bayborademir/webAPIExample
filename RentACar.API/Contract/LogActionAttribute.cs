@@ -13,6 +13,7 @@ namespace RentACar.API.Contract
         private readonly ILog _logger;
         private readonly ICurrentUser _current;
 
+
         public Log4NetActionFilterAttribute(ICurrentUser current)
         {
             _current = current;
@@ -26,17 +27,21 @@ namespace RentACar.API.Contract
 
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            log4net.GlobalContext.Properties["userName"] = _current.UserName;
-            string currentUser = _current.UserName;
+            string? userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+
+            //log4net.GlobalContext.Properties["userName"] = _current.UserName;
+            log4net.GlobalContext.Properties["userName"] = userName;
+
+            //string currentUser = _current.UserName;
 
 
-            if (currentUser == null)
+            if (userName == null)
             {
                 _logger.Error("Error occured");
             }
 
-            _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {currentUser}");
-            _logger.Info($"User '{currentUser}' is performing an action.");
+            _logger.Info($"Executing {context.ActionDescriptor.DisplayName}, by {userName}");
+            _logger.Info($"User '{userName}' is performing an action.");
             base.OnActionExecuting(context);
         }   
 
