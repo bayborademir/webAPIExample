@@ -1,5 +1,8 @@
-﻿<Properties StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http" GitUserInfo="UsingGIT">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/CustomerController.cs" relfile="RentACar.API/Controllers/CustomerController.cs" line="28" column="1" />
@@ -7,28 +10,15 @@
       <Breakpoint file="/Users/bayborademir/Desktop/RentACar/RentACar.API/Controllers/SignUpController.cs" relfile="RentACar.API/Controllers/SignUpController.cs" line="44" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Contract/LogActionAttribute.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Program.cs">
     <Files>
-      <File FileName="RentACar.API/Program.cs" Line="17" Column="35" IsPinned="True" />
-      <File FileName="RentACar.API/Contract/LogActionAttribute.cs" Line="30" Column="19" />
-      <File FileName="RentACar.API/Controllers/CarController.cs" Line="27" Column="29" />
+      <File FileName="RentACar.API/Program.cs" Line="105" Column="1" IsPinned="True" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RentACar" expanded="True">
-            <Node name="RentACar.API">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Contract" expanded="True">
-                <Node name="LogActionAttribute.cs" selected="True" />
-              </Node>
-              <Node name="Controllers" expanded="True" />
-            </Node>
+          <Node name="RentACar">
+            <Node name="RentACar.API" expanded="True" />
           </Node>
         </State>
       </Pad>

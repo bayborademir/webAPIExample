@@ -104,8 +104,6 @@ app.Use(async (httpContext, next) =>
 });
 
 
-
-
 app.UseAuthentication();
 app.UseAuthorization();
 
