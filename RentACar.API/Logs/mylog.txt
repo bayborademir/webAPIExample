@@ -1,0 +1,3 @@
+INFO  2023-08-29 15:39:06,284 [(null)] [(null)]  [12] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.CarController.GetCarById (RentACar.API)
+INFO  2023-08-29 15:39:06,284 [(null)] [(null)]  [12] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-29 15:39:06,857 [(null)] [(null)]  [12] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.CarController.GetCarById (RentACar.API)

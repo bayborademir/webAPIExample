@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using RentACar.API.Models;
 using RentACar.DataAcces.Models;
 using RentACar.Entities.DTOs;
 

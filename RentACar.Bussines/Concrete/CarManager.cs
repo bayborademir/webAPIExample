@@ -30,7 +30,9 @@ namespace RentACar.Bussines.Concrete
 
         public List<Car> GetAllCars()
         {
+            
             return _carRepo.GetAllCars();
+
         }
 
         public Car GetCarById(int id)
@@ -42,5 +44,15 @@ namespace RentACar.Bussines.Concrete
         {
             return _carRepo.UpdateCar(car);
         }
+
+        public List<int> GetAllCars2(string brand, string Model, int year)
+       {
+
+            var list1 = _carRepo.GetAllCars();
+            var list2 = list1.Where(x => x.Brand == brand && x.Model == Model && x.Year < year).Select(c => c.CarId).ToList();
+            return list2;
+
+        }
+
     }
 }

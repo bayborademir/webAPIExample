@@ -8,15 +8,17 @@ namespace RentACar.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CarController: ControllerBase
+    public class CarController: Controller
     {
         private readonly ICarService _carService;
+        private readonly ICustomerService _cu;
 
-        public CarController(ICarService carService)
+        public CarController(ICarService carService, ICustomerService cu)
         {
             _carService = carService;
+            _cu = cu;
         }
-        
+
         [HttpGet("id")]
         [Log4NetActionFilter]
         public Car GetCarById(int id)

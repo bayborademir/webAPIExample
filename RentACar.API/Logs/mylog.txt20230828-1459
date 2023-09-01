@@ -1,0 +1,18 @@
+INFO  2023-08-28 14:59:02,434 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:02,435 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:02,436 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:03,277 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:03,277 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:03,277 [(null)] [(null)]  [20] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:03,839 [(null)] [(null)]  [23] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:03,840 [(null)] [(null)]  [23] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:03,840 [(null)] [(null)]  [23] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:04,343 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:04,343 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:04,343 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:04,808 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:04,808 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:04,808 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:05,260 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executing RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
+INFO  2023-08-28 14:59:05,260 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - User is performing an action.
+INFO  2023-08-28 14:59:05,260 [(null)] [(null)]  [21] PI.Contract.Log4NetActionFilterAttribute - Executed RentACar.API.Controllers.DateTimeController.Get (RentACar.API)
