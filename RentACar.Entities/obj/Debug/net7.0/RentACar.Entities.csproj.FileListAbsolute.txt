@@ -24,3 +24,17 @@ C:/Users/Baybora/source/repos/RentACar/RentACar.Entities/obj/Debug/net7.0/ref/Re
 /Users/bayborademir/Desktop/RentACar/RentACar.Entities/obj/Debug/net7.0/ref/RentACar.Entities.dll
 /Users/bayborademir/Desktop/RentACar/RentACar.Entities/bin/Debug/net7.0/RentACar.Entities.runtimeconfig.json
 /Users/bayborademir/Desktop/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.genruntimeconfig.cache
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/bin/Debug/net7.0/RentACar.Entities.deps.json
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/bin/Debug/net7.0/RentACar.Entities.runtimeconfig.json
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/bin/Debug/net7.0/RentACar.Entities.dll
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/bin/Debug/net7.0/RentACar.Entities.pdb
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.csproj.AssemblyReference.cache
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.AssemblyInfoInputs.cache
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.AssemblyInfo.cs
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.csproj.CoreCompileInputs.cache
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.dll
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/refint/RentACar.Entities.dll
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.pdb
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/RentACar.Entities.genruntimeconfig.cache
+/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/Debug/net7.0/ref/RentACar.Entities.dll

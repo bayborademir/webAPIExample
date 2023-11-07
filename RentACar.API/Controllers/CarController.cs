@@ -31,12 +31,12 @@ namespace RentACar.API.Controllers
         {
             return _carService.GetAllCars();
         }
+
         [HttpPost]
         [Log4NetActionFilter]
-
         public Car AddCar(Car car)
         {
-            return _carService.AddCar(car);
+            return _carService.AddCar(car); 
         }
 
         [HttpPut]

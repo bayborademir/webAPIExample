@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WDOHGGBDRhbQ79yOEtyJPqSnqcwV8oYCM3N5WKaTbGH1w1PFNz+HHT9QED9d1Lak/aoq+kTfyu4XD80W6aF6Lg==",
+  "dgSpecHash": "ZMjU20EJjmEtwL+yNbZKDC4G6JgZlc00gXeYBu6IJwT4l4RQ7TNDcUHkjo/KmLgmwS/1cxKUHBYtOqZcJGHpXw==",
   "success": true,
-  "projectFilePath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj",
+  "projectFilePath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj",
   "expectedPackageFiles": [
     "/Users/bayborademir/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/bayborademir/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

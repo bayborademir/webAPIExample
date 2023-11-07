@@ -1,58 +1,35 @@
 ﻿<Properties StartupConfiguration="{BF46B87A-27F2-4B5C-92FD-56F570F03F1E}|http" GitUserInfo="UsingGIT">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="RentACar.API/Controllers/CarController.cs">
     <Files>
-      <File FileName="RentACar.API/Program.cs" Line="28" Column="49" IsPinned="True" />
-      <File FileName="RentACar.API/Controllers/SignUpController.cs" />
-      <File FileName="RentACar.API/Controllers/demoController.cs" />
-      <File FileName="RentACar.API/Controllers/DateTimeController.cs" />
-      <File FileName="RentACar.Entities/Entities/AspNetUserClaim.cs" />
-      <File FileName="RentACar.Entities/Entities/AspNetUserToken.cs" />
-      <File FileName="RentACar.DataAcces/RentAcarDbContext.cs" Line="38" Column="1" />
-      <File FileName="RentACar.DataAcces/Concrete/CarRepo.cs" Line="37" Column="14" />
-      <File FileName="RentACar.DataAcces/Abstract/ICarRepo.cs" Line="16" Column="26" />
-      <File FileName="RentACar.API/Controllers/CarController.cs" Line="25" Column="10" />
-      <File FileName="RentACar.API/Contract/LogActionAttribute.cs" Line="23" Column="16" />
-      <File FileName="RentACar.Bussines/Concrete/CarManager.cs" Line="50" Column="1" />
-      <File FileName="RentACar.Entities/Entities/Car.cs" Line="6" Column="22" />
-      <File FileName="RentACar.Entities/Entities/Customer.cs" Line="1" Column="1" />
-      <File FileName="RentACar.Entities/DTOs/RoleDTO.cs" Line="1" Column="1" />
-      <File FileName="RentACar.Entities/DTOs/SignInDTO.cs" Line="1" Column="1" />
-      <File FileName="RentACar.Entities/DTOs/SignUpDTO.cs" Line="1" Column="1" />
-      <File FileName="RentACar.Entities/Entities/AspNetUserLogin.cs" Line="1" Column="1" />
-      <File FileName="RentACar.API/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="RentACar.API/appsettings.json" Line="1" Column="1" />
+      <File FileName="RentACar.API/Program.cs" Line="18" Column="45" IsPinned="True" />
+      <File FileName="RentACar.API/Controllers/CarController.cs" Line="22" Column="24" />
+      <File FileName="RentACar.API/MapperProfile.cs" />
+      <File FileName="RentACar.DataAcces/Concrete/CarRepo.cs" Line="30" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RentACar" expanded="True">
-            <Node name="RentACar.API">
+            <Node name="RentACar.API" expanded="True">
               <Node name="Contract" expanded="True" />
               <Node name="Controllers" expanded="True">
                 <Node name="CarController.cs" selected="True" />
               </Node>
             </Node>
             <Node name="RentACar.DataAcces" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-            </Node>
-            <Node name="RentACar.Entities" expanded="True">
-              <Node name="DTOs" expanded="True" />
-              <Node name="Entities" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.RentACar.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

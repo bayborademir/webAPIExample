@@ -1,23 +1,13 @@
 using log4net;
 using log4net.Config;
-using log4net.Repository.Hierarchy;
-using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpLogging;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using NLog.Web;
 using RentACar.API;
 using RentACar.Bussines.Abstract;
 using RentACar.Bussines.Concrete;
-using RentACar.DataAcces;
 using RentACar.DataAcces.Abstract;
 using RentACar.DataAcces.Concrete;
 using RentACar.DataAcces.Models;
-using System.Data;
 using System.Reflection;
 using System.Text;
 
@@ -25,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region
 
-builder.Services.AddScoped<ICarRepo, CarRepo>();
+builder.Services.AddScoped<ICarRepo, CarRepo>();    
 builder.Services.AddScoped<ICarService, CarManager>();
 
 builder.Services.AddScoped<IEmployeeRepo,EmployeeRepo>();
@@ -48,7 +38,7 @@ builder.Services.AddAutoMapper(typeof(MapperProfile));
 
 builder.Logging.AddLog4Net();
 XmlConfigurator.Configure(new FileInfo("log4net.config"));
-
+            
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddHttpContextAccessor();
 

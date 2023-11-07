@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {}
+    "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {}
   },
   "projects": {
-    "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {
+    "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
+        "projectUniqueName": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
         "projectName": "RentACar.DataAcces",
-        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
+        "projectPath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.DataAcces/RentACar.DataAcces.csproj",
         "packagesPath": "/Users/bayborademir/.nuget/packages/",
-        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.DataAcces/obj/",
+        "outputPath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.DataAcces/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
-                "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj"
+              "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+                "projectPath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
+    "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj",
+        "projectUniqueName": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj",
         "projectName": "RentACar.Entities",
-        "projectPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/RentACar.Entities.csproj",
+        "projectPath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/RentACar.Entities.csproj",
         "packagesPath": "/Users/bayborademir/.nuget/packages/",
-        "outputPath": "/Users/bayborademir/Desktop/RentACar/RentACar.Entities/obj/",
+        "outputPath": "/Users/bayborademir/Desktop/Projeler/RentACar/RentACar.Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bayborademir/.nuget/NuGet/NuGet.Config"
